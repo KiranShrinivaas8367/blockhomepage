@@ -6,12 +6,42 @@
 }
 
 .home{
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.9)),url(assets/health.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.6)),url(assets/health.jpg);
+    overflow: hidden;
     width: 100vw;
     height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+}
 
+.nav{
+    background-color: #333;
+    height: 6rem;
+}
+
+ul{
+    /* margin-left: 45rem; */
+    display: flex;
+    justify-content: flex-end;
+}
+
+li{
+    justify-content: flex-end;
+    list-style-type: none;
+}
+
+li a{
+    font-size: 1.5rem;
+    flex-direction: column;
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 2rem;
+}
+
+li a:hover{
+    background-color: #111;
+    color: gray;
 }
 
